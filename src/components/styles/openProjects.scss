@@ -1,0 +1,11 @@
+@use 'shared';
+@use 'borderRound';
+
+.openProjects {
+  background-color: shared.$backgroundColor;
+  border: borderRound.$borderRound;
+  position:absolute;
+  width: 80dvw;
+  margin-right: 10dvw;
+  margin-left: 10dvw;
+}

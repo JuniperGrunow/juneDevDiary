@@ -1,0 +1,31 @@
+
+$backgroundColor: #a8228e;
+$accent1: #0cc3c8;
+$fontFamily: Bitcount Prop Single Ink, system-ui;
+$fontColor:#eeeeff;
+$fontFamily2nd: MGS2;
+
+@font-face {
+  font-family: "Bitcount Prop One";
+  src: url("../../res/BitcountPropSingleInk-VariableFont_CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MGS2";
+  src: url("../../res/MGS2MENU.TTF") format("truetype");
+}
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+}
+
+
+
+@font-face {
+  font-family: 'Bitcount Prop Single Ink';
+  font-style: normal;
+  font-weight: normal;
+  src: local(".../res/BitcountPropSingleInk-VariableFont_CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght.ttf");
+}

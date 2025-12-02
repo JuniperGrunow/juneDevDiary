@@ -1,0 +1,8 @@
+@use 'shared';
+@mixin borderRound{
+  border-radius: 10vw;
+  border-width: 10px;
+  border-color: shared.$accent1;
+  border-style: solid;
+  padding: 2vw;
+}
